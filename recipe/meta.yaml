@@ -10,6 +10,7 @@ source:
   sha256: 0324bcaccd4daba0c007ab715589aed2d5e81a9a0c55bf04c8e3922d19dc8145
 
   patches:
+    - python.patch
     - win32.patch  # [win32]
 
 build:
